@@ -88,7 +88,7 @@ const Code = () => {
   useEffect(() => {
     const fetchLeetcodeData = async () => {
       try {
-        const res = await fetch("https://leetcode-stats-api.herokuapp.com/Ajay_bind");
+        const res = await fetch("https://leetcode-stats-api.herokuapp.com/ajaybind786");
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
         }
