@@ -16,23 +16,6 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
-
-/* Hide vertical and horizontal scrollbars */
-::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
-html, body {
-  overflow: -moz-scrollbars-none; /* For Firefox */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
-}
-
-* {
-  scrollbar-width: none; /* For Firefox */
-}
-
-
 #contain {
   overflow-x: hidden;
   overflow-y: hidden;
