@@ -13,8 +13,8 @@ body {
   height: 100vh;
   /* position :absolute; */
   /* margin-bottom: 2%; */
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-x: hidden;  /* Hide horizontal scrollbar */
+  overflow-y: auto;    /* Allow vertical scrolling */
 }
 
 /* Hide vertical and horizontal scrollbars */
@@ -24,12 +24,8 @@ body {
 }
 
 html, body {
-  overflow: -moz-scrollbars-none; /* For Firefox */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
-}
-
-* {
-  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* IE & Edge */
+  scrollbar-width: none;    /* Firefox */
 }
 
 
