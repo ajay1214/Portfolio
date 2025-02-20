@@ -12,7 +12,7 @@ import EmailIcon from "@mui/icons-material/Email";
 // import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-
+import ArticleIcon from '@mui/icons-material/Article';
 // const myFunction = (e)=> {
 //     let phone = e.target.innerText;
 //     navigator.clipboard.writeText(phone);
@@ -43,6 +43,7 @@ const Contact = () => {
                       LinkedIn
                     </a>
                   </li>
+                  
                   <li className="main-li">
                     <EmailIcon sx={{ color: "green", fontSize: "40px" }} />
                     <a
@@ -63,6 +64,7 @@ const Contact = () => {
                       Github
                     </a>
                   </li>
+                  
                   <li className="main-li">
                     <InstagramIcon
                       sx={{ color: "#d33b84", fontSize: "40px" }}
@@ -72,6 +74,18 @@ const Contact = () => {
                       href="https://www.instagram.com/ajay_bind786/"
                     >
                       @ajay_bind786
+                    </a>
+                  </li>
+                  
+                  <li className="main-li">
+                    <ArticleIcon
+                      sx={{ color: "#0abef5", fontSize: "40px" }}
+                    />
+                    <a
+                      style={{ textDecoration: "none", marginLeft: "20px" }}
+                      href="https://docs.google.com/document/d/1V0_cFHBiqUe-NBFhVhW21Xk9ujsATqJVaNHrGJeUThs/edit?usp=drive_link"
+                    >
+                      Resume
                     </a>
                   </li>
                 </ul>
