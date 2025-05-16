@@ -29,22 +29,23 @@ const About = () => {
               <h3>Education:</h3>
               <p>
                 <ul className="about-info">
+                  <li>I cleared Gate CSE in 2025 with AIR 9192.</li>
+                  <li>I cleared JEE Mains in 2021 with AIR 21325.</li>
                   <li>
                     I completed my senior secondary examination in 2021 with
                     72.4% score.
                   </li>
                   <li>Secondary examination in 2019 with 87.6% score.</li>
-                  <li>I cleared JEE Mains in 2021 with AIR 21325.</li>
                 </ul>
               </p>
               <h3>Skills:</h3>
               <p>
                 <ul className="about-info">
                   <li>Data Structures And Algorithms</li>
-                  <li>C++, C Lang</li>
+                  <li>C++, C Lang, Python, SQL</li>
                   <li>HTML, CSS and JavaScript</li>
-                  <li>ReactJS, Node.js, Express, MongoDB</li>
-                  <li>DBMS, MYSQL, Operating System, Computer Networks</li>
+                  <li>ReactJS, Next.js, Node.js, Express, MongoDB</li>
+                  <li>OOPs, DBMS, MYSQL, Operating System, Computer Networks</li>
                 </ul>
               </p>
               <h3>Hobbies:</h3>
